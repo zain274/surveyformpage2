@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Short Explanation</p>
+    <form id="survey-form">
+    <label id="name-label">Name:
+    <input type="text"  placeholder="Enter your name" id="name" required>
+</label>
+    <label id="email-label">Email:
+        <input type="email"  placeholder="Enter your email" id="email" required>
+</label>
+    <label id="number-label">Age:
+        <input type="number" placeholder="Enter your number"  id="number" min="8" max="20">
+</label>
+<hr>
+<select  id="dropdown">
+    <option disabled selected value >select</option>
+    <option value="Student">Student</option>
+    <option value="teacher">teacher</option>
+    <option value="Admin">Admin</option>
+    <option value="principal">principal</option>
+
+</select>
+<label>
+    <input
+      name="user-recommend"
+      value="definitely"
+      type="radio"
+      class="input-radio"
+      checked
+    />male</label
+  >
+  <label>
+    <input
+      name="user-recommend"
+      value="maybe"
+      type="radio"
+      class="input-radio"
+    />female</label
+  >
+
+  <label
+    ><input
+      name="user-recommend"
+      value="not-sure"
+      type="radio"
+      class="input-radio"
+    />other</label
+  >
+<label><input
+  
+      value="html"
+      type="checkbox"
+    
+    />html</label
+  >
+  <label><input
+  
+    value="css"
+    type="checkbox"
+  
+  />Css</label
+>
+
+<label><input
+  
+    value="javascript"
+    type="checkbox"
+  
+  />javascript</label
+>
+
+<label><input
+  
+    value="html"
+    type="checkbox"
+  
+  />angular</label
+>
+
+<textarea
+id="comments"
+
+
+placeholder="Enter your comment here..."
+></textarea>
+<input type="submit"  id="submit">
+
+</form>
+
+</body>
+</html>
